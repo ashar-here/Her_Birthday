@@ -10,8 +10,11 @@ function showAlert() {
   }
   });
 }
-Swal.fire('Hey special! I am gonna ask you something special okay!');
+
+setTimeout(()=>{
+  Swal.fire('Hey special! I am gonna ask you something special okay!');
+},1500);
 
 setTimeout(()=>{
       showAlert();
-  }, 4000)
+  }, 5500)
